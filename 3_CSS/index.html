@@ -5,11 +5,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS</title>
+
+    <!-- 3 - Internal CSS -->
+    <style>
+      p {
+        color: gold;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+    </style>
+
+    <!-- 4 - External CSS -->
+    <!-- Cascating Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css">
+
   </head>
 
   <body>
         <!-- 1- In line CSS -->
         <h1 style="color: blue">Mudando a cor com  o InLine</h1>
         <h1 style="color: red">Outro título</h1>
+
+        <!-- 2 - Multiplas Regras -->
+        <h1 style="color: purple; font-size: 40px; border-bottom: 1px solid red;">Mudar cor e tamanho da fonte</h1>
+
+        <!-- 3 - Internal CSS -->
+        <p>Eu fui estilizado pelo internal</p>
+        <p>Outro parágrafo</p>
+        <p>Mais um</p>
+
+        <!-- 4 - External CSS -->
+        <h3>Meu título</h3> 
   </body>
 </html>
