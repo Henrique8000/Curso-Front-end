@@ -7,3 +7,35 @@ body {
 h3 {
     color: palevioletred;
 }
+
+/* classe */
+.paragraph {
+    background-color: black;
+    color: blueviolet;
+    padding: 5px;
+}
+
+/* Id */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 46px;
+}
+
+/* ordem das regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Um comentario */
+
+/* Mais um comentario */
