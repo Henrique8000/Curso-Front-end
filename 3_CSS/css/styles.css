@@ -39,3 +39,21 @@ h2 {
 /* Um comentario */
 
 /* Mais um comentario */
+
+
+/* Nome de cores */
+
+.color-name {
+    color: blueviolet;
+}
+
+/* Hex */
+.hex {
+    color: #3cca2c
+}
+
+/* RGB */
+
+.rgb {
+    color: rgb(233, 255, 79);
+}
