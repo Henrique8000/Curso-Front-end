@@ -57,3 +57,9 @@ h2 {
 .rgb {
     color: rgb(233, 255, 79);
 }
+
+/* RGBA */
+
+.rgba {
+    color: rgba(111, 200, 222, 0.3);
+}
